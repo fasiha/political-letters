@@ -18,5 +18,5 @@ On macOS, I installed `pdflatex` via [MacTeX](https://tug.org/mactex/).
 
 `pdflatex` creates a bunch of temporary files. I remove them all with
 ```
-$ ./clean.sh
+$ make clean
 ```
